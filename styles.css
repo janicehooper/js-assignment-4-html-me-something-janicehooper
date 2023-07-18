@@ -1,1 +1,54 @@
-/* Write your CSS here! */
+body {
+    width: 80%;
+    max-width: 1024px;
+    margin: 8px;
+    display: black;
+    background-color: #d2a7bc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.fun-paragraph {
+    display: block;
+    color: green;
+}
+
+h1, #mainHeading {
+    text-align: center;
+    color: red;
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-style: double;
+    border-width: 20px;
+    border-color: #94476c;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    background-color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    border-style: double;
+    border-color: #78a44f;
+    border-width: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #52283c;
+    font-size: 25px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.link {
+    color: #94476c;
+}
+
+.link:hover {
+    color: #78a44f;
+}
